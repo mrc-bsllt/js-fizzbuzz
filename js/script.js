@@ -1,9 +1,9 @@
-var button = document.getElementById("button");
+var generatorButton = document.getElementById("generator_button");
+var annulerButton = document.getElementById("annuler_button");
 var numbersList = document.getElementById("numbers_list");
 var j;
 
-
-button.addEventListener("click",
+generatorButton.addEventListener("click",
   function () {
     for (var i = 1; i < 101; i++) {
 
@@ -19,5 +19,11 @@ button.addEventListener("click",
 
       numbersList.innerHTML += "<li>" + j + "</li>";
     }
+  }
+);
+
+annulerButton.addEventListener("click",
+  function() {
+    numbersList.innerHTML = "";
   }
 );
