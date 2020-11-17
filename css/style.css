@@ -50,12 +50,20 @@ ul li {
 }
 #generator_button,
 #annuler_button {
+  margin: 10px 0;
   background-color: #995012;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
+
+  section {
+    text-align: center;
+  }
+  h1 {
+    font-size: 25px;
+  }
 
   ul li {
     width: 100px;
