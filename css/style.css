@@ -6,9 +6,11 @@
   font-weight: 500;
 }
 body {
-  background-color: #1eaa90; 
+  background-color: #1eaa90;
 }
-
+h1 {
+  color: #ffffff;
+}
 section {
   padding: 15px;
   text-transform: uppercase;
@@ -27,4 +29,15 @@ ul {
 .green {
   color: green;
   font-weight: 700;
+}
+#generator_button:focus,
+#annuler_button:focus {
+  outline: none;
+  background-color: rgba(199, 164, 246, 0.6);
+}
+#generator_button,
+#annuler_button {
+  background-color: red;
+  color: #ffffff;
+  text-transform: uppercase;
 }
