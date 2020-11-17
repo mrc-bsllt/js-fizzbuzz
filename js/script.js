@@ -17,7 +17,7 @@ generatorButton.addEventListener("click",
         j = "<li>" + i + "</li>";
       }
 
-      numbersList.innerHTML +=  j 
+      numbersList.innerHTML +=  j;
     }
   }
 );
