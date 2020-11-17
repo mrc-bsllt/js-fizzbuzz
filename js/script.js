@@ -14,10 +14,10 @@ generatorButton.addEventListener("click",
       } else if (i % 5 == 0) {
         j = "<li class='blue'>" + "Buzz" + "</li>";
       } else {
-        j = i;
+        j = "<li>" + i + "</li>";
       }
 
-      numbersList.innerHTML += "<li>" + j + "</li>";
+      numbersList.innerHTML +=  j 
     }
   }
 );

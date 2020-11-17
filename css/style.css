@@ -18,6 +18,10 @@ section {
 ul {
   list-style: none;
 }
+ul li {
+  height: 30px;
+  border-bottom: 2px solid #ffffff;
+}
 .red {
   color: red;
   font-weight: 700;
